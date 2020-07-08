@@ -6,6 +6,7 @@ import "../stylesheets/css/Home.css";
 import "../stylesheets/css/Navbar.css";
 import "../stylesheets/css/Preview.css";
 import "../stylesheets/css/Reset.css";
+import "../stylesheets/css/Recipe.css";
 
 export default function MyApp({ Component, pageProps }) {
     return (

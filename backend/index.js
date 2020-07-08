@@ -20,9 +20,9 @@ app.prepare()
        
         require("./routes")(server);
         
-        server.get("/verification/account/:code", (req, res) => {
-            const actualPage = "/verification/account";
-            const queryParams = { code: req.params.code };
+        server.get("/recipe/:recipeID", (req, res) => {
+            const actualPage = "/recipe";
+            const queryParams = { recipeID: req.params.recipeID };
             app.render(req, res, actualPage, queryParams);
         });
 

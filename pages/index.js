@@ -73,7 +73,7 @@ const Index = ({ recipes }) => {
                 </div>
 
                 <div className="home_recipes">
-                    {recipes.length > 0 ?
+                    {recipes && recipes.length > 0 ?
                         chosenTags.length > 0 ?
                             getFilteredRecipes()
                         :
@@ -90,9 +90,15 @@ const Index = ({ recipes }) => {
 };
 
 Index.getInitialProps = async function ({ store, req, res }) {
-    const response = await axios.get(getRouteString("/recipe/get-all", req));
-    
-    return { recipes: response.data };
+    try {
+        const response = await axios.get(getRouteString("/recipe/get-all", req));
+
+        return { recipes: response.data };
+    }
+    catch(err) {
+        console.log(err);
+        return { recipes: [] };
+    }
 };
 
 export default Index;
