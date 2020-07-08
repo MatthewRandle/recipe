@@ -1,0 +1,125 @@
+.navbar,
+.navbar_left,
+.navbar_right,
+.navbar_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_container {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #302d35;
+}
+
+.navbar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1150px;
+  height: 50px;
+  font-size: 0.75rem;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 0.65rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.navbar h2,
+.navbarMobile h2 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 1.75rem;
+}
+
+.navbar h2 span,
+.navbarMobile h2 span {
+  color: #E66F00;
+}
+
+.navbar img {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar img {
+    display: inline;
+  }
+}
+
+.navbarMobile_container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+.navbarMobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 75px;
+}
+
+.navbarMobile img {
+  width: 200px;
+}
+
+.navbarMobile_link {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  color: #302d35;
+  font-family: "Open Sans", sans-serif;
+  width: 95%;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.navbarMobile_close {
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
+/*# sourceMappingURL=Navbar.css.map */

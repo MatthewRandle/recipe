@@ -1,0 +1,44 @@
+{
+    "id": 11,
+	"title": "World's Best Lasagna",
+	"description": "It takes a little work, but it is worth it.",
+	"ingredients": [
+        { "quantity": 0.08333333333, "name": "Pound sweet Italian sausage" },
+        { "quantity": 0.0625, "name": "Pound lean ground beef" },
+        { "quantity": 0.04166666666, "name": "Cup minced onion" },
+        { "quantity": 0.16666666666, "name": "Cloves garlic, crushed" },
+        { "quantity": 0.08333333333, "name": "(28 ounce) Can crushed tomatoes" },
+        { "quantity": 0.16666666666, "name": "(6 ounce) Cans tomato paste" },
+        { "quantity": 0.16666666666, "name": "(6.5 ounce) Cans canned tomato sauce" },
+        { "quantity": 0.04166666666, "name": "Cup water" },
+        { "quantity": 0.16666666666, "name": "Tablespoons white sugar" },
+        { "quantity": 0.125, "name": "Teaspoons dried basil leaves" },
+        { "quantity": 0.04166666666, "name": "Teaspoon fennel seeds" },
+        { "quantity": 0.08333333333, "name": "Teaspoon Italian seasoning" },
+        { "quantity": 0.08333333333, "name": "Tablespoon salt" },
+        { "quantity": 0.02083333333, "name": "Teaspoon ground black pepper" },
+        { "quantity": 0.33333333333, "name": "Tablespoons chopped fresh parsley" },
+        { "quantity": 1, "name": "Lasagna noodles" },
+        { "quantity": 1.33333333333, "name": "Ounces ricotta cheese" },
+        { "quantity": 0.08333333333, "name": "Egg" },
+        { "quantity": 0.04166666666, "name": "Teaspoon salt" },
+        { "quantity": 0.0625, "name": "Pound mozzarella cheese, sliced" },
+        { "quantity": 0.0625, "name": "Cup grated Parmesan cheese" }
+	],
+	"directions": [
+		"In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 tablespoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.",
+		"Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.",
+		"Preheat oven to 375 degrees F (190 degrees C).",
+		"To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13 inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.",
+		"Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving."
+	],
+	"prep_time_min": 30,
+	"cook_time_min": 150,
+	"servings": 12,
+	"tags": [ "main dish" ],
+	"author": {
+		"name": "John Chandler",
+		"url": "http://allrecipes.com/cook/1899478/profile.aspx"
+	},
+	"source_url": "http://allrecipes.com/Recipe/Worlds-Best-Lasagna/Detail.aspx"
+}

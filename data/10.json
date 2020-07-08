@@ -1,0 +1,39 @@
+{
+    "id": 10,
+	"title": "Vegetarian Korma",
+	"description": "This is an easy and exotic Indian dish. It's rich, creamy, mildly spiced, and extremely flavorful. Serve with naan and rice.",
+	"ingredients": [
+        { "quantity": 0.375, "name": "Tablespoons vegetable oil" },
+        { "quantity": 0.25, "name": "Small onion, diced" },
+        { "quantity": 0.25, "name": "Teaspoon minced fresh ginger root" },
+        { "quantity": 1, "name": "Cloves garlic, minced" },
+        { "quantity": 0.5, "name": "Potatoes, cubed" },
+        { "quantity": 1, "name": "Carrots, cubed" },
+        { "quantity": 0.25, "name": "Fresh jalapeno pepper, seeded and sliced" },
+        { "quantity": 0.75, "name": "Tablespoons ground unsalted cashews" },
+        { "quantity": 0.25, "name": "(4 ounce) Can tomato sauce" },
+        { "quantity": 0.5, "name": "Teaspoons salt" },
+        { "quantity": 0.375, "name": "Tablespoons curry powder" },
+        { "quantity": 0.25, "name": "Cup frozen green peas" },
+        { "quantity": 0.125, "name": "Green bell pepper, chopped" },
+        { "quantity": 0.125, "name": "Red bell pepper, chopped" },
+        { "quantity": 0.25, "name": "Cup heavy cream" },
+        { "quantity": 0.25, "name": "Bunch fresh cilantro for garnish" }
+	],
+	"directions": [
+		"Heat the oil in a skillet over medium heat. Stir in the onion, and cook until tender.",
+		"Mix in ginger and garlic, and continue cooking 1 minute.",
+		"Mix potatoes, carrots, jalapeno, cashews, and tomato sauce. Season with salt and curry powder. Cook and stir 10 minutes, or until potatoes are tender.",
+		"Stir peas, green bell pepper, red bell pepper, and cream into the skillet. Reduce heat to low, cover, and simmer 10 minutes.",
+		"Garnish with cilantro to serve."
+	],
+	"prep_time_min": 25,
+	"cook_time_min": 30,
+	"servings": 4,
+	"tags": [ "main dish", "vegetarian", "indian" ],
+	"author": {
+		"name": "Yakuta",
+		"url": "http://allrecipes.com/cook/116722/profile.aspx"
+	},
+	"source_url": "http://allrecipes.com/Recipe/Vegetarian-Korma/Detail.aspx"
+}

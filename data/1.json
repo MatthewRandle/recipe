@@ -1,0 +1,32 @@
+{
+    "id": 1,
+	"title": "Banana Oatmeal Cookie",
+	"description": "This recipe has been handed down in my family for generations. It's a good way to use overripe bananas. It's also a moist cookie that travels well either in the mail or car.",
+	"ingredients": [
+        { "quantity": 0.0625, "name": "Cup sifted all-purpose flour" },
+        { "quantity": 0.02083333333, "name": "Teaspoon baking soda" },
+        { "quantity": 0.04166666666, "name": "Teaspoon salt" },
+        { "quantity": 0.01041666666, "name": "Teaspoon ground nutmeg" },
+        { "quantity": 0.03125, "name": "Teaspoon ground cinnamon" },
+        { "quantity": 0.03125, "name": "Cup shortening" },
+        { "quantity": 0.04166666666, "name": "Cup white sugar" },
+        { "quantity": 0.04166666666, "name": "Egg" },
+        { "quantity": 0.04166666666, "name": "Cup mashed bananas" },
+        { "quantity": 0.07291666666, "name": "Cup quick cooking oats" },
+        { "quantity": 0.02083333333, "name": "Cup chopped nuts" }
+	],
+	"directions": [
+		"Preheat oven to 400 degrees F (200 degrees C).",
+		"Sift together the flour, baking soda, salt, nutmeg and cinnamon.",
+		"Cream together the shortening and sugar; beat until light and fluffy. Add egg, banana, oatmeal and nuts. Mix well.",
+		"Add dry ingredients, mix well and drop by the teaspoon on ungreased cookie sheet.",
+		"Bake at 400 degrees F (200 degrees C) for 15 minutes or until edges turn lightly brown. Cool on wire rack. Store in a closed container."
+	],
+	"servings": 24,
+	"tags": [ "dessert", "fruit" ],
+	"author": {
+		"name": "Blair Bunny",
+		"url": "http://allrecipes.com/cook/10179/profile.aspx"
+	},
+	"source_url": "http://allrecipes.com/Recipe/Banana-Oatmeal-Cookie/Detail.aspx"
+}

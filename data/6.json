@@ -1,0 +1,33 @@
+{
+    "id": 6,
+	"title": "Homemade Black Bean Veggie Burgers",
+	"description": "You will never want to eat frozen veggie burgers again. These are so easy, and you'll be proud to have created such a vegetarian delight.",
+	"ingredients": [
+        { "quantity": 0.25, "name": "(16 ounce) Can black beans, drained and rinsed" },
+        { "quantity": 0.125, "name": "Green bell pepper, cut into 2 inch pieces" },
+        { "quantity": 0.125, "name": "Onion, cut into wedges" },
+        { "quantity": 0.75, "name": "Cloves garlic, peeled" },
+        { "quantity": 0.25, "name": "Egg" },
+        { "quantity": 0.25, "name": "Tablespoon chili powder" },
+        { "quantity": 0.25, "name": "Tablespoon cumin" },
+        { "quantity": 0.25, "name": "Teaspoon Thai chili sauce or hot sauce" },
+        { "quantity": 0.125, "name": "Cup bread crumbs" }
+	],
+	"directions": [
+		"If grilling, preheat an outdoor grill for high heat, and lightly oil a sheet of aluminum foil. If baking, preheat oven to 375 degrees F (190 degrees C), and lightly oil a baking sheet.",
+		"In a medium bowl, mash black beans with a fork until thick and pasty.",
+		"In a food processor, finely chop bell pepper, onion, and garlic. Then stir into mashed beans.",
+		"In a small bowl, stir together egg, chili powder, cumin, and chili sauce.",
+		"Stir the egg mixture into the mashed beans. Mix in bread crumbs until the mixture is sticky and holds together. Divide mixture into four patties.",
+		"If grilling, place patties on foil, and grill about 8 minutes on each side. If baking, place patties on baking sheet, and bake about 10 minutes on each side."
+	],
+	"prep_time_min": 15,
+	"cook_time_min": 20,
+	"servings": 4,
+	"tags": [ "main dish", "vegetarian", "grill" ],
+	"author": {
+		"name": "Lauren Mu",
+		"url": "http://allrecipes.com/cook/1445297/profile.aspx"
+	},
+	"source_url": "http://allrecipes.com/Recipe/Homemade-Black-Bean-Veggie-Burgers/Detail.aspx"
+}

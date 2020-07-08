@@ -1,0 +1,38 @@
+{
+    "id": 7,
+	"title": "Homemade Chicken Enchiladas",
+	"description": "These enchiladas are great. Even my 5 year old loves them!",
+	"ingredients": [
+        { "quantity": 0.125, "name": "Tablespoon olive oil" },
+        { "quantity": 0.25, "name": "Cooked chicken breasts, shredded" },
+        { "quantity": 0.125, "name": "Onion, diced" },
+        { "quantity": 0.125, "name": "Green bell pepper, diced" },
+        { "quantity": 0.1875, "name": "Cloves garlic, chopped" },
+        { "quantity": 0.125, "name": "Cup cream cheese" },
+        { "quantity": 0.125, "name": "Cup shredded Monterey Jack cheese" },
+        { "quantity": 0.125, "name": "(15 ounce) Can tomato sauce" },
+        { "quantity": 0.125, "name": "Tablespoon chili powder" },
+        { "quantity": 0.125, "name": "Tablespoon dried parsley" },
+        { "quantity": 0.125, "name": "Teaspoon dried oregano" },
+        { "quantity": 0.0625, "name": "Teaspoon salt" },
+        { "quantity": 0.0625, "name": "Teaspoon ground black pepper" },
+        { "quantity": 1, "name": "(10 inch) Flour tortillas" },
+        { "quantity": 0.25, "name": "Cups enchilada sauce" },
+        { "quantity": 0.125, "name": "Cup shredded Monterey Jack cheese" }
+	],
+	"directions": [
+		"Preheat oven to 350 degrees F (175 degrees C).",
+		"Heat olive oil in a skillet over medium heat. Cook and stir chicken, onion, green bell pepper, garlic, cream cheese, and 1 cup Monterey Jack cheese in hot oil until the cheese melts, about 5 minutes. Stir tomato sauce, chili powder, parsley, oregano, salt, and black pepper into the chicken mixture.",
+		"Divide mixture evenly into tortillas, roll the tortillas around the filling, and arrange in a baking dish. Cover with enchilada sauce and remaining 1 cup Monterey Jack cheese.",
+		"Bake in preheated oven until cheese topping melts and begins to brown, about 15 minutes."
+	],
+	"prep_time_min": 15,
+	"cook_time_min": 20,
+	"servings": 8,
+	"tags": [ "main dish" ],
+	"author": {
+		"name": "Mary Kate",
+		"url": "http://allrecipes.com/cook/14977239/profile.aspx"
+	},
+	"source_url": "http://allrecipes.com/Recipe/Homemade-Chicken-Enchiladas/Detail.aspx"
+}

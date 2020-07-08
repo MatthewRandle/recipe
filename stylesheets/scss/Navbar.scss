@@ -1,0 +1,103 @@
+@import "_variables";
+
+.navbar,
+.navbar_left,
+.navbar_right,
+.navbar_container  {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_container {
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $darkGray;
+}
+
+.navbar {
+    justify-content: center;
+    width: 1150px;
+    height: 50px;
+    font-size: 0.75rem;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+
+    @include desktop-down() {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 0.65rem;
+    }
+
+    @include tablet-down() {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+    }
+}
+
+.navbar h2,
+.navbarMobile h2 {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 1.75rem;
+}
+
+.navbar h2 span,
+.navbarMobile h2 span {
+    color: $orange;
+}
+
+.navbar img {
+    display: none;
+
+    @include tablet-down() {
+        display: inline;
+    }
+}
+
+.navbarMobile_container {
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+
+.navbarMobile {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.navbarMobile img {
+    width: 200px;
+}
+
+.navbarMobile_link {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    color: $darkGray;
+    font-family: "Open Sans", sans-serif;
+    width: 95%;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.navbarMobile_close {
+    font-size: 2rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+}

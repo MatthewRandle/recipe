@@ -1,0 +1,30 @@
+{
+    "id": 8,
+	"title": "Marinated Grilled Shrimp",
+	"description": "A very simple and easy marinade that makes your shrimp so yummy you don't even need cocktail sauce! Don't let the cayenne pepper scare you, you don't even taste it. My 2 and 4 year-olds love it and eat more shrimp than their parents! It is also a big hit with company, and easy to prepare. I make this with frozen or fresh shrimp and use my indoor electric grill if the weather is not good for outside grilling. Try it with a salad, baked potato, and garlic bread. You will not be disappointed!!!",
+	"ingredients": [        
+        { "quantity": 0.5, "name": "Cloves garlic, minced" },
+        { "quantity": 0.05555555555, "name": "Cup olive oil" },
+        { "quantity": 0.04166666666, "name": "Cup tomato sauce" },
+        { "quantity": 0.33333333333, "name": "Tablespoons red wine vinegar" },
+        { "quantity": 0.33333333333, "name": "Tablespoons chopped fresh basil" },
+        { "quantity": 0.08333333333, "name": "Teaspoon salt" },
+        { "quantity": 0.04166666666, "name": "Teaspoon cayenne pepper" },
+        { "quantity": 0.33333333333, "name": "Pounds fresh shrimp, peeled and deveined" },
+        { "quantity": 0.16666666666, "name": "Skewers" }
+	],
+	"directions": [
+		"In a large bowl, stir together the garlic, olive oil, tomato sauce, and red wine vinegar. Season with basil, salt, and cayenne pepper. Add shrimp to the bowl, and stir until evenly coated. Cover, and refrigerate for 30 minutes to 1 hour, stirring once or twice.",
+		"Preheat grill for medium heat. Thread shrimp onto skewers, piercing once near the tail and once near the head. Discard marinade.",
+		"Lightly oil grill grate. Cook shrimp on preheated grill for 2 to 3 minutes per side, or until opaque."
+	],
+	"prep_time_min": 15,
+	"cook_time_min": 6,
+	"servings": 6,
+	"tags": [ "main dish", "grill" ],
+	"author": {
+		"name": "Blondie Perez",
+		"url": "http://allrecipes.com/cook/1804621/profile.aspx"
+	},
+	"source_url": "http://allrecipes.com/recipe/marinated-grilled-shrimp"
+}

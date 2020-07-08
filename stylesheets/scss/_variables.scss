@@ -1,0 +1,9 @@
+$darkGray: #302d35;
+$orange: #E66F00;
+$lightGray: rgb(240, 240, 240);
+
+@mixin desktop-down() {@media only screen and (max-width: 1200px) { @content; }}
+
+@mixin tablet-down() {@media only screen and (max-width: 768px) { @content; }}
+
+@mixin phone-down() {@media only screen and (max-width: 480px) { @content; }}

@@ -1,0 +1,41 @@
+.footer_container {
+  width: 100%;
+  height: 100px;
+  background-color: #302d35;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer h2,
+.footer a {
+  color: white;
+}
+
+.footer h2 span {
+  color: #E66F00;
+}
+
+.footer_legal a {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=Footer.css.map */
