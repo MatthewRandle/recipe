@@ -3,20 +3,25 @@
 .recipe {
     padding-top: 100px;
     width: 1150px;
+
+    @include desktop-down() {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @include tablet-down() {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 .recipe h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     max-width: 530px;
 }
 
-.recipe h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.recipe h1,
-.recipe h2 {
+.recipe h1 {
     font-family: "Raleway", sans-serif;
     color: $darkGray;
 }
@@ -37,52 +42,167 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.recipe_hero img {
     height: 600px;
+
+    @include desktop-down() {
+        height: 800px;
+    }
+
+    @include tablet-down() {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
 }
 
-.recipe_hero_servings {
+.recipe_hero_content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+
+    @include tablet-down() {
+        width: 100%;
+    }
+}
+
+.recipe_hero_content p {
     margin-top: 20px;
+    line-height: 1.5em;
 }
 
-.recipe_hero_servings input {
-    border: 1px solid gray;
-    padding: 5px;
+.recipe_hero_image {
+    width: 50%;
+    height: 100%;
+
+    @include tablet-down() {
+        display: none;
+    }
+}
+
+.recipe_hero_info {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-top: 30px;
+
+    @include tablet-down() {
+        justify-content: space-between;
+    }
+}
+
+.recipe_hero_info label,
+.recipe_hero_info h3,
+.recipe_hero_info p {
+    color: $darkGray;
+}
+
+.recipe_hero_info_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+
+    @include tablet-down() {
+        margin-right: 0;
+    }
+}
+
+.recipe_hero_info_row input {
+    margin-top: 10px;
+    width: 60px;
+    font-family: "Open Sans", sans-serif;
     font-size: 1rem;
-    margin-left: 10px;
-    width: 55px;
 }
 
-.recipe_ingredients,
-.recipe_directions {
-    margin-top: 50px;
+.recipe_content_container {
+    width: 100%;
+    background-color: $lightGray;
+}
+
+.recipe_content_topBar button {
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: $lightGray;
+
+    @include tablet-down() {
+        font-size: 1.5rem;
+    }
+}
+
+.recipe_content_topBar button:not(.recipe_content_topBar--chosen) {
+    background-color: $darkGray;
+    color: white;
+}
+
+.recipe_content {
+    padding: 75px;
+
+    @include tablet-down() {
+        padding: 30px;
+    }
 }
 
 .recipe_ingredient {
     display: flex;
     align-items: baseline;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
 }
 
-.recipe_ingredient,
-.recipe_direction {
-    margin-top: 50px;
+.recipe_ingredient p {
+    margin-right: 10px;
+    line-height: 1.3em;
+}
+
+.recipe_ingredient button,
+.recipe_direction button {
+    margin-left: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(211, 211, 211);
+    color: $darkGray;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    user-select: none;
 }
 
 .recipe_ingredient h3,
 .recipe_direction h3 {
-    margin-right: 20px;
-    font-size: 2rem;
-}
-
-.recipe_ingredient p,
-.recipe_direction p {
-    font-size: 1.2rem;
-    line-height: 1.3em;
+    margin-right: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    color: $darkGray;
+    user-select: none;
 }
 
 .recipe_direction {
-    display: flex;
-    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.recipe_direction p {
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+
+.recipe_direction button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.8rem;
 }

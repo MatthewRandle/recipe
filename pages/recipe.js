@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Fraction from "fraction.js";
 import Head from "next/head";
 
 import getRouteString from "../utils/getRouteString";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Ingredients from "../components/recipe/Ingredients";
+import Directions from "../components/recipe/Directions";
 
 const Recipe = ({ recipe }) => {
     const [servings, setServings] = useState(recipe ? recipe.servings : 4);
+    const [showIngredients, setShowIngredients] = useState(true);
 
     if(recipe) {
         return(
@@ -19,42 +21,46 @@ const Recipe = ({ recipe }) => {
 
                 <div className="recipe">
                     <div className="recipe_hero">
-                        <div>
+                        <div className="recipe_hero_content">
                             <h1>{recipe.title}</h1>
+                            <p>By {recipe.author.name}</p>
+                            <p>{recipe.description}</p>
                             
-                            <div className="recipe_hero_servings">
-                                <label>Serving:</label>
-                                <input type="number" value={servings} onChange={e => setServings(e.target.value)} min="1" />
+                            <div className="recipe_hero_info">
+                                <div className="recipe_hero_info_row">
+                                    <label>Serving</label>
+                                    <input type="number" value={servings} onChange={e => setServings(e.target.value)} min="1" />
+                                </div>
+
+                                {recipe.prep_time_min ?
+                                    <div className="recipe_hero_info_row">
+                                        <h3>Prep Time</h3>
+                                        <p>{recipe.prep_time_min} mins</p>
+                                    </div>
+                                : null}
+
+                                {recipe.cook_time_min ? 
+                                    <div className="recipe_hero_info_row">
+                                        <h3>Cook Time</h3>
+                                        <p>{recipe.cook_time_min} mins</p>
+                                    </div>
+                                : null}
                             </div>
                         </div>
 
-                        <img src={`/recipes/${recipe.id}.jpg`} alt={recipe.title} />
+                        <div className="recipe_hero_image" style={{ background: `url("/recipes/${recipe.id}.jpg")` }}></div>
                     </div>
 
-                    <div className="recipe_ingredients">
-                        <h2>Ingredients ({servings}) servings</h2>
+                    <div className="recipe_content_container">
+                        <div className="recipe_content_topBar">
+                            <button onClick={() => setShowIngredients(true)} className={showIngredients ? "recipe_content_topBar--chosen" : ""}>Ingredients</button>
+                            <button onClick={() => setShowIngredients(false)} className={!showIngredients ? "recipe_content_topBar--chosen" : ""}>Directions</button>
+                        </div>
 
-                        {recipe.ingredients && recipe.ingredients.length && Array.isArray(recipe.ingredients) ?
-                            recipe.ingredients.map((ingredient, i) => (
-                                <div className="recipe_ingredient" key={i}>
-                                    <h3>{new Fraction(ingredient.quantity * servings).toFraction(true)}</h3>
-                                    <p>{ingredient.name}</p>
-                                </div>
-                            ))
-                        : null}
-                    </div>
-
-                    <div className="recipe_directions">
-                        <h2>Directions</h2>
-
-                        {recipe.directions && recipe.directions.length && Array.isArray(recipe.directions) ?
-                            recipe.directions.map((direction, i) => (
-                                <div className="recipe_direction" key={i}>
-                                    <h3>{i + 1}</h3>
-                                    <p>{direction}</p>
-                                </div>
-                            ))
-                            : null}
+                        <div className="recipe_content">
+                            <Ingredients showIngredients={showIngredients} recipe={recipe} servings={servings} />
+                            <Directions showIngredients={showIngredients} recipe={recipe} />
+                        </div>
                     </div>
                 </div>
 
